@@ -1,0 +1,55 @@
+.mobile-div{
+    background: #1c2237;
+    height: 100%;
+    z-index: 1000;
+    font-size: 1.2rem;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    transition:0.5s all ease-in;
+    color: white;
+}
+
+.open-menu{
+    width: 100%;
+}
+
+.close-menu{
+    width: 0;
+}
+
+.mobile-div a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5% 0;
+}
+
+.mobile-links,.mobile-btn{
+    text-align: center;
+}
+
+.mobile-links:hover{
+    background-color: #1888ff;
+}
+
+.close{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.close div{
+    padding: 5%;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 769px){
+    .mobile-div{
+        display: none;
+    }
+
+    
+}
